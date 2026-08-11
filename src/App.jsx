@@ -11,7 +11,7 @@ const App = () => {
         </p>
         <div style={{ paddingRight: "10%" }}>
           <button>
-            <a href="admin-movie-6pbc091e6-httplocalhost5184.vercel.app/" target="blank">
+            <a href="https://admin-movie-green.vercel.app/">
               Admin Login
             </a>
           </button>
