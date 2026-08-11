@@ -16,7 +16,7 @@ const NowPlayingRow = ({ movies, onBookTicket }) => {
                 <img
                   src={movie.image || "https://unsplash.com"}
                   className="card-img-top"
-                  alt={movie.title}
+              
                   style={{ height: "320px", objectFit: "cover" }}
                 />
                 <div className="card-body d-flex flex-column justify-content-between">
