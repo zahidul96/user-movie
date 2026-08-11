@@ -58,7 +58,7 @@ const BookingModal = ({ selectedMovie, onClose, onBookingSuccess }) => {
         </div>
 
         <form onSubmit={handleFormSubmit}>
-          {/* Showtime Selector Capsules */}
+        
           <div className="mb-3">
             <label className="form-label small fw-bold">Select Showtime</label>
             <div className="d-flex gap-2">

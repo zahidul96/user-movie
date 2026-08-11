@@ -1,9 +1,8 @@
 import React from "react";
 
 const NowPlayingRow = ({ movies, onBookTicket }) => {
-  // Filter for movies categorized as Now Playing
   const nowPlayingMovies = movies.filter(
-    (m) => m.category?.toLowerCase() === "now playing" || !m.category
+    (m) => m.category?.toLowerCase() === "now playing"
   );
 
   return (
@@ -28,7 +27,7 @@ const NowPlayingRow = ({ movies, onBookTicket }) => {
                   </div>
                   <button 
                     onClick={() => onBookTicket(movie)} 
-                    className="btn btn-danger w-100 mt-3 fw-bold"
+                    className="btn btn-primary w-100 mt-3 fw-bold"
                   >
                     Book Tickets
                   </button>

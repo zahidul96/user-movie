@@ -1,9 +1,8 @@
 import React from "react";
 
 const TopRated = ({ movies, onBookTicket }) => {
-  // Filter for Top Rated movies
   const topRatedMovies = movies.filter(
-    (m) => m.category?.toLowerCase() === "top rated" || m.rating >= 4.5
+    (m) => m.category?.toLowerCase() === "top rated"
   );
 
   return (

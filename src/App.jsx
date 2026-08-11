@@ -10,7 +10,7 @@ const App = () => {
           checkout
         </p>
         <div style={{ paddingRight: "10%" }}>
-          <button>
+          <button className="login-admin">
             <a href="https://admin-movie-green.vercel.app/">
               Admin Login
             </a>
